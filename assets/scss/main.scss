@@ -22,6 +22,7 @@ a {
 }
 
 .section-1 {
+  padding-top: 122px;
   .item-1 {
     background-image: url(https://htmldemo.net/juan/juan/assets/img/slider/slider-1.jpg);
     background-repeat: no-repeat;
@@ -654,6 +655,9 @@ a {
   .footer-bottom-blocks{
     justify-content: center !important;
     text-align: center;
+  }
+  .section-1{
+    padding-top: 30px;
   }
 
  

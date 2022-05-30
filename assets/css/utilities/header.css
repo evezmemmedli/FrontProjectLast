@@ -83,8 +83,11 @@
   color: #fff; }
 
 .bottom-bar {
+  position: fixed;
+  width: 100%;
+  transition: 0.3s all linear;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   background-color: white;
-  position: relative;
   z-index: 3; }
   .bottom-bar .container {
     position: relative; }
@@ -181,3 +184,7 @@
       display: block; }
   .top-bar {
     display: none; } }
+
+@media (max-width: 650px) {
+  .bottom-bar {
+    top: 0 !important; } }

@@ -430,5 +430,19 @@ $('.third-tab').click(function(e){
   $('.tab-content-info-box').fadeOut();
   $('.tab-content-review-box').fadeIn();
 })
+
+const bottomBar= document.querySelector('.bottom-bar');
   
+window.addEventListener("scroll", (e) => {
+  if (window.scrollY > 50) {
+    bottomBar.style.top = "0";
+    bottomBar.style.transition = "0.7s all";
+  } else{
+    
+      
+      bottomBar.style.top="50px"
+    
+  }
+});
+
 
